@@ -1,2 +1,2 @@
 # Tela de Login
-Atividade realizada durante a aula 6 do Geração Tech, referente à uma tela de login.
+Atividade realizada durante as aulas 6 e 7 do Geração Tech, referente à uma tela padrão de login.
