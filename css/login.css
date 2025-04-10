@@ -11,7 +11,7 @@
     overflow: hidden;
 }
 
-.login-container::before{
+.login-container::before {
     content: '';
     position: absolute;
     top: 0;
@@ -72,7 +72,7 @@ input:focus {
     box-shadow: 0 0 0 3px rgba(108, 99, 255, 0.2);
 }
 
-input::placeholder{
+input::placeholder {
     color: var(--text-secondary);
     opacity: 0.3;
 }
@@ -150,7 +150,7 @@ button:active {
     margin: 1.5rem 0;
 }
 
-.divider::before, 
+.divider::before,
 .divider::after {
     content: '';
     flex: 1;
@@ -174,12 +174,14 @@ button:active {
 }
 
 .social-btn {
+    color: var(--text-primary);
+    text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 48px;
+    height: 48px;
     border-radius: 50%;
-    padding: 0.5rem;
     background-color: var(--input-bg);
     border: 1px solid rgba(255, 255, 255, 0.1);
     cursor: pointer;
@@ -187,6 +189,28 @@ button:active {
 }
 
 .social-btn:hover {
-    background-color: var(--primary-color);
+    background-color: rgba(255, 255, 255, 0.05);
     transform: translateY(-2px);
+}
+
+.social-btn:active {
+    transform: translateY(0);
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.signup-link a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.signup-link a:hover{
+    text-decoration: underline;
 }
