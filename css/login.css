@@ -211,6 +211,30 @@ button:active {
     transition: var(--transition);
 }
 
-.signup-link a:hover{
+.signup-link a:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    .login-container {
+        padding: 2rem 1.5rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .subtitle {
+        font-size: 0.85rem;
+    }
+
+    input {
+        padding: 0.8rem;
+        font-size: 0.9rem;
+    }
+
+    button {
+        padding: 0.8rem;
+        font-size: 0.9rem;
+    }
 }
